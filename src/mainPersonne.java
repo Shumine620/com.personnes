@@ -17,10 +17,19 @@ public class mainPersonne {
     Personne personneHuit = new Personne("Loic", 39);
     Personne personneNeuf = new Personne("Seb", 15);
     Personne personneDix = new Personne("Denis", 18);
-    for (Personne personne : Arrays.asList(personneUn, personneDeux, personneTrois, personneQuatre, personneCinq,
-            personneSix, personneSept, personneHuit, personneNeuf, personneDix)) {
-      personneListe.add(personne);
-    }
+
+    personneListe.add(personneUn);
+    personneListe.add(personneDeux);
+    personneListe.add(personneTrois);
+    personneListe.add(personneQuatre);
+    personneListe.add(personneCinq);
+    personneListe.add(personneSix);
+    personneListe.add(personneSept);
+    personneListe.add(personneHuit);
+    personneListe.add(personneNeuf);
+    personneListe.add(personneDix);
+
+
 
     System.out.println("---------- Affichage de la liste-------");
 
